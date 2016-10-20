@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="charset=utf-8">
+        <title>菜鸟</title>
+        <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#btn1").click(function(){
+                    $("#test1").text(function(i,origText){
+                        return"旧文本："+origText+"新文本：Hello world!(index:"+i+")";
+                    });
+                });
+                $("#btn2").click(function(){
+                    $("#test2").text(function(i,origText){
+                        return "旧 html: " + origText + " 新 html: Hello <b>world!</b> (index: " + i + ")"; 
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p id="test1">这是一个有<b>粗体</b>字的段落。</p>
+        <p id="test2">这是另外一个有<b>粗体</b>字的段落。</p>
+        <button id="btn1">显示新/旧文本</button>
+        <button id="btn2">显示新/旧文本</button>
+    </body>
+</html>
