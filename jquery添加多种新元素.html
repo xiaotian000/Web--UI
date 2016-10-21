@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="charset=utf-8">
+        <title>菜鸟</title>
+        <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+            function afterText(){
+                var txt1="<b>I</b>";
+                var txt2=$("<i></i>").text("love");
+                var txt3=document.createElement("big");
+                txt3.innerHTML=" my dad and mom"; 
+                $("p").after(txt1,txt2,txt3);
+            }
+        </script>
+    </head>
+    <body>
+        <p>I love you forever,my dad!</p>
+        <br><br>
+        <button onclick="afterText()">之后插入</button>
+    </body>
+</html>
