@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="charset=utf-8">
+        <title>菜鸟</title>
+        <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $("p").remove(".italic");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="div1" style="height:100px;width:300px;">
+            <p>这是一个段落。</p>
+            <p class="italic"><i>这是另外一个段落。</i></p>
+            <p class="italic"><i>这是另外一个段落。</i></p>
+            <button>移除所有的class="italic"的p元素。</button>          
+        </div>
+    </body>
+</html>
