@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="charset=utf-8">
+        <title>菜鸟</title>
+        <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    var txt="";
+                    txt+="div高度："+$("#div1").width()+"</br>";
+                    txt+="div宽度："+$("#div1").height()+"</br>";
+                    txt+="div宽度，包含内边距："+$("#div1").innerWidth()+"</br>";
+                    txt+="div高度，包含内边距："+$("#div1").innerHeight();
+                    $("#div1").html(txt);
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="div1" style="height:100px;width:300px;padding:30px;margin:5px;
+        border:1px solid blue;background-color:lightblue;"></div>
+        <br>
+        <button>显示div元素的尺寸</button>
+        <p>innerWidth-返回元素的宽度（包含内边距）。</p>
+        <p>innerHeight-返回元素的高度（包含内边距）。</p>
+    </body>
+</html>
