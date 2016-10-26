@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="charset=utf-8">
+        <title>菜鸟</title>
+        <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                   $("#div1").addClass("important blue");
+                });
+            });
+        </script>
+        <style type="text/css">
+            .important
+            {
+                font-weight:bold;
+                font-size:xx-large;
+            }
+            .blue
+            {
+                color:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="div1">这是一些文本。</div>
+        <div id="div2">这是一些文本。</div>
+        <br>
+        <button>为第一个div元素添加类</button>
+    </body>
+</html>
