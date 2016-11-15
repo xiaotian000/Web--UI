@@ -15,6 +15,12 @@ a{
     margin-top:50px;
     background-color:#f6f6f6;
 }
+.nav .nav-content{
+    width:1000px;
+    margin:0 auto;
+    height:40px;
+    position:relative;
+}
 .nav .nav-list li{
     float:left;
 }
