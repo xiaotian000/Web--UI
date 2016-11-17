@@ -1,0 +1,33 @@
+﻿body {
+    margin:0px;
+    padding:0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav {
+    width:100%;
+    height:40px;
+    background:#222;
+    margin-top:70px;
+}
+ul{
+    text-align:center;
+}
+.nav li{
+    display:inline;
+    padding:10px;
+    margin:20px;
+}
+.nav li a{
+    padding:0 30px;
+    text-decoration:none;
+    color:#aaa;
+    line-height:40px;
+}
+.nav li a:hover{
+    background:#aaa;
+    color:#fff;
+}
+.nav li a.on{
+    background:#333;
+    color:#fff;
+}
