@@ -1,0 +1,31 @@
+﻿body {
+    margin:0px;
+    padding:0px;
+    font-family:"Microsoft YaHei",Arial, Helvetica, sans-serif;
+}
+.nav{
+    background-color:#222;
+    height:40px;
+    width:100%;
+    margin-top:50px;
+}
+.nav-list{
+    width:100%;
+    margin:0 auto;
+}
+.nav-list li{
+    list-style:none;
+    float:left;
+}
+.nav-list li a{
+    text-decoration:none;
+    color:#aaa;
+    padding:0 40px;
+    line-height:40px;
+    display:block;
+    border:none;
+}
+.nav-list li a:hover{
+    color:#fff;
+    background:#504d4d;
+}
