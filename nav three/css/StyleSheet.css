@@ -35,7 +35,8 @@ a{
 .nav .nav-list li:hover>a{
     color:#fff;
     background-color:#333;
-} .nav .nav-list li:hover .nav-down {
+} 
+.nav .nav-list li:hover .nav-down {
     display:block;
 }
 .nav-down {
