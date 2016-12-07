@@ -49,7 +49,7 @@
 .fr_clearfix ul{
     list-style:none;
 }
-.fr_clearfix li a{
+.fr_clearfix> li a{
     font-size:22px;
     color:#000000;
     text-decoration:none;
@@ -71,10 +71,29 @@
     border-bottom-right-radius:4px;
     width:320px;
 }
-.nav_header_search ul{
-    display:none;
-}
-.nav_header_search .hot_list li a{
+.key_word_select span{
+    position:absolute;
+    right: 550px;
+    top:98px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    cursor: pointer;
+} 
+
+.nav_header_search .hot_search {
+    position:absolute;
+    left:0;
+    top:120px;
+    padding-left:1050px;
+} 
+.nav_header_search .hot_search li {
+   float:left;
+} 
+.nav_header_search .hot_search li a {
     text-decoration:none;
-    float:left;
-}
+    font-size:12px;
+    color:#808080;
+    margin:8px 8px;
+} 
+
+
