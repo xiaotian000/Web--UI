@@ -156,40 +156,62 @@ i {
     font-family:iconfont;
 }
 .content_nav{
-    margin-top:20px;
+    margin-top:30px;
 }
 .content_nav img{
     width:1560px;
-    height:400px;
+    height:450px;
 }
 .content_nav .content_list{
-    position:relative;
-    top:-80px;
+    position:absolute;
+    margin-left:-40px;
 }
 .content_nav ul{
-    position:absolute;
     list-style:none;
-    width:1560px;
-    height:80px;
-    background-color:#000000;
-    opacity:0.7;
-}
-.content_nav li{
-    float:left;
-}
-.content_nav li.mask{
-
 }
 .content_nav li a{
-    text-decoration:none;
     display:block;
-    margin-top:20px;
-    margin-left:120px;
-    margin-right:100px;
+    text-decoration:none;
     font-family:"Microsoft YaHei";
+    line-height:80px;
+    color:#ffffff;
     font-size:26px;
-    color:#e9eaee;
+    position:absolute;
+    left:0;
+    right:0;
+    text-align:center;
 }
+.content_nav li{
+    position:relative;
+    width:390px;
+    height:80px;
+    float:left;
+    top:-80px;
+    cursor:pointer;
+}
+.content_nav li .mask{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:#000000;
+    opacity:0.7;
+    transition:all 0.2s;
+}
+.content_nav li:hover .mask{ 
+    opacity:0.5;
+}
+.content_nav .content_list li:hover a{
+    color:#1acc18;
+}
+.content_nav .content_list .active a{
+    color:#1acc18;
+}
+.content_nav .content_list .active .mask{
+    background-color:#ffffff;
+    opacity:0.9;
+}
+
+
 @font-face {
   font-family: 'iconfont';  /* project id 193780 */
   src: url('//at.alicdn.com/t/font_bm2vxqpj9wj3jtt9.eot');
@@ -201,7 +223,6 @@ i {
 .iconfont_f_0{
     font-family:iconfont;
     font-size:26px; 
-    color:#e9eaee;
 }
 .iconfont_f_1{
     font-family:iconfont;
