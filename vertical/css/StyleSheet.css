@@ -210,8 +210,6 @@ i {
     background-color:#ffffff;
     opacity:0.9;
 }
-
-
 @font-face {
   font-family: 'iconfont';  /* project id 193780 */
   src: url('//at.alicdn.com/t/font_bm2vxqpj9wj3jtt9.eot');
@@ -233,3 +231,19 @@ i {
 .iconfont_f_3{
     font-family:iconfont;
 }
+.content_body{
+    position:relative;
+    background-color:#ffffff;
+    width:1560px;
+    height:1000px;
+    padding-top:10px;
+}
+.content_body_people{
+    position:relative;
+}
+.content_body .picture_1 img{
+
+}
+.content_body .people_post{
+}
+
