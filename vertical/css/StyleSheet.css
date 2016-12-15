@@ -235,15 +235,33 @@ i {
     position:relative;
     background-color:#ffffff;
     width:1560px;
-    height:1000px;
+    height:1500px;
     padding-top:10px;
 }
 .content_body_people{
     position:relative;
+    margin:40px;
+    margin-top:50px;
 }
 .content_body .picture_1 img{
-
+    width:300px;
+    height:180px;
+    margin-top:30px;
+    margin-left:80px;
+    float:left;
 }
 .content_body .people_post{
+    float:right;
+    margin-right:60px;
 }
-
+.content_body .people_post h3{
+    padding-top:40px;
+    padding-bottom:30px;
+}
+.content_body .people_post p{
+    height:55px;
+    line-height:25px;
+    width:980px;
+    font-size:18px;
+    color:#808080;
+}
