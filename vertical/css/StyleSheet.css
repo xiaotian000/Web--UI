@@ -235,8 +235,9 @@ i {
     position:relative;
     background-color:#ffffff;
     width:1560px;
-    height:1500px;
     padding-top:10px;
+    padding-bottom:25px;
+    border:1px solid #e9eaee;
 }
 .content_body_people{
     position:relative;
@@ -264,4 +265,39 @@ i {
     width:980px;
     font-size:18px;
     color:#808080;
+}
+.about_us{
+    width:1560px;
+    background-color:#ffffff;
+}
+.about_us .fo{
+    font-size:22px;
+    color:#808080;
+    margin-top:55px;
+    margin-bottom:20px;
+    margin-left:105px;
+}
+.about_us ul{
+    list-style:none;
+}
+.about_us li{
+    float:left;
+}
+.about_us_people li span{
+    display:block;
+    text-align:center;
+    margin:25px 75px;
+    line-height:8px;
+    color:#808080;
+    font-size:18px;
+}
+.about_us_people li span.pic img{
+    width:222px;
+    height:260px;
+}
+.about_us_people li span.name{
+    font-family:"Microsoft YaHei";
+    font-size:28px;
+    color:#000000;
+    line-height:15px;
 }
