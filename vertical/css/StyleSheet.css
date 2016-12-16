@@ -301,3 +301,51 @@ i {
     color:#000000;
     line-height:15px;
 }
+.about_bottom{
+    background-color:#f2f2f2;
+}
+.about_bottom .container .honour img{
+    width:1560px;
+    height:105px;
+    margin-top:80px;
+} 
+/*.about_bottom .container .honour map{
+    cursor:pointer;
+}*/ 
+.about_bottom .container .clearfix .address{
+    position:relative;
+    float:left;
+    margin-top:50px;
+    margin-right:30px;
+    left:-35px;
+}
+.about_bottom .container .clearfix .address li{
+    list-style:none;
+    font-size:18px;
+}
+.about_bottom .container .clearfix .address .phone{
+    display:block;
+    font-size:28px;
+    margin-bottom:20px;
+}
+.about_bottom .container .clearfix .address .number{
+    font-size:36px;
+}
+.about_bottom .container .clearfix .address li em{
+    display:block;
+    color:#808080;
+    font-size:16px;
+    margin-top:20px;
+}
+.about_bottom .container .clearfix .address li img{
+    width:65px;
+    height:30px;
+}
+.about_bottom .container .clearfix .address li em .azure{
+    text-decoration:none;
+    font-style:normal;
+    font-size:22px;
+}
+.about_bottom .container .clearfix .fr{
+    float:left;
+}
