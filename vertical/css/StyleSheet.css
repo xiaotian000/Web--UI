@@ -308,10 +308,9 @@ i {
     width:1560px;
     height:105px;
     margin-top:80px;
-} 
-/*.about_bottom .container .honour map{
     cursor:pointer;
-}*/ 
+}
+
 .about_bottom .container .clearfix .address{
     position:relative;
     float:left;
