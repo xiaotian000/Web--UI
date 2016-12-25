@@ -100,3 +100,40 @@
     text-align:center;
     border:1px solid #4799be;
 }
+.home .twitter{
+    width:100%;
+    height:200px;
+    color:#ebeef0;
+    background:#364c68;
+    padding:20px 0 10px 0;
+    box-shadow:5px 20px -2px rgba(0,0,0,.4);
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 193780 */
+  src: url('//at.alicdn.com/t/font_kxxuay05xe9izfr.eot');
+  src: url('//at.alicdn.com/t/font_kxxuay05xe9izfr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_kxxuay05xe9izfr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_kxxuay05xe9izfr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_kxxuay05xe9izfr.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-style:normal;
+    font-family:iconfont;
+    color:#ffffff;
+    font-size:44px;
+}
+.home .twitter .slider_container a{
+    text-decoration:none;
+}
+.home .twitter .slider_container .left{
+    position:absolute;
+    display:block;
+    margin-top:60px;
+    left:180px;
+}
+.home .twitter .slider_container .right{
+    position:absolute;
+    display:block;
+    margin-top:60px;
+    right:180px;
+}
