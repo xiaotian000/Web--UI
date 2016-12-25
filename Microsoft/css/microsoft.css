@@ -138,6 +138,7 @@
     right: 160px;
 }
 .home .twitter .slider .silde{
+    position:absolute;
     float:left;
 }
 .home .twitter .slider .item{
