@@ -130,7 +130,7 @@
 }
 .home .twitter .slider_container{
     text-align:center;
-    width:1600px;
+    width:1700px;
     height:180px;
 }
 .home .twitter .slider_container a{
@@ -148,9 +148,18 @@
     margin-top: 50px;
     right: 60px;
 }
+.home .twitter .slider{
+    position:relative;
+    width:1450px;
+    height:180px;
+    left:150px;
+}
 .home .twitter .slider .silde{
     position:absolute;
     float:left;
+}
+.home .twitter .slider_inner{
+    position:relative;
 }
 .home .twitter .slider .item{
     position:relative;
@@ -159,7 +168,6 @@
     margin-bottom:20px;
     margin-left:20px;
     margin-right:20px;
-    left:150px;
     background:url("../images/twitter-icon.svg");
     background-repeat:no-repeat;
     background-size:25px 25px;
