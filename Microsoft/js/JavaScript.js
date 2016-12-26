@@ -1,10 +1,17 @@
 ﻿$(function () {
     var page = 1;
     var i = 1;
-    var slider_innerShow=$("slider_inner");
-    var downwidth=$slider_innerShow.width();
-    var len = $(".silde").find('item').length;
+    var $slider_innerShow = $(".slider_inner");
+    var downwidth = $slider_innerShow.width();
+    var len = $(".silde").find('.item').length;
     var page_number = Math.ceil(len / i);
+    //for (var i = 0; i < len; i++) {
+    //    var item = $(".silde").find('.item')[i];
+    //    if (i!=0) {
+    //        $(item).css('left', 240 * (i + 1));
+    //    }
+    
+    //}
     $("#carousel-left").click(function () {
         if (!$(".silde").is(":animated")) {
             if (page == page_number) {
