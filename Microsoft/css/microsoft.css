@@ -150,28 +150,54 @@
 }
 .home .twitter .slider{
     position:relative;
-    width:1450px;
+    width:1460px;
     height:180px;
-    left:150px;
+    left:130px;
+    overflow:hidden;
+
 }
-.home .twitter .slider .silde{
+.home .twitter .slider #silde_0{
     position:absolute;
-    float:left;
+    /*float:left;*/
+    width:1460px;
+    height:170px;
+    left:0;
 }
-.home .twitter .slider_inner{
+.home .twitter .slider #silde_1{
+    position:absolute;
+    /*float:left;*/
+    width:1460px;
+    height:170px;
+    left:1460px;
+}
+.home .twitter .slider #silde_2{
+    position:absolute;
+    /*float:left;*/
+    width:1460px;
+    height:170px;
+    left:2920px;
+}
+.home .twitter .slider #silde_3{
+    position:absolute;
+    /*float:left;*/
+    width:1460px;
+    height:170px;
+    left:4380px;
+}
+/*.home .twitter .slider_inner{
     position:relative;
-}
+}*/
 .home .twitter .slider .item{
-    position:relative;
+    /*position:relative;*/
     float:left;
-    margin-top:10px;
+    margin-top:8px;
     margin-bottom:20px;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:18px;
+    margin-right:18px;
     background:url("../images/twitter-icon.svg");
     background-repeat:no-repeat;
     background-size:25px 25px;
-    background-position:390px 25px;
+    background-position:420px 28px;
 }
 .home .twitter .slider .item img{
     margin-top:30px;
@@ -196,6 +222,9 @@
 .home .twitter .slider .item .inner a:hover{
     text-decoration:underline;
 }
+.home .twitter .slider .item .inner h3{
+    margin-bottom:0px;
+}
 .home .twitter .slider .item .inner span{
     font-size:16px;
     font-weight:normal;
@@ -203,6 +232,7 @@
 .home .twitter .slider .item .inner p{
     display:block;
     width:300px;
-    font-size:20px;
+    font-size:18px;
     font-weight:300;
+    margin-top:0px;
 }

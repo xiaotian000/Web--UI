@@ -1,8 +1,8 @@
 ﻿$(function () {
     var page = 1;
-    var i = 1;
-    var $slider_innerShow = $(".slider_inner");
-    var downwidth = $slider_innerShow.width();
+    var i = 3;
+    var $sliderShow = $(".slider");
+    var downwidth = $sliderShow.width();
     var len = $(".silde").find('.item').length;
     var page_number = Math.ceil(len / i);
     //for (var i = 0; i < len; i++) {
@@ -10,12 +10,12 @@
     //    if (i!=0) {
     //        $(item).css('left', 240 * (i + 1));
     //    }
-    
+
     //}
     $("#carousel-left").click(function () {
         if (!$(".silde").is(":animated")) {
             if (page == page_number) {
-                $(".silde").animate({ left: '0px' }, "slow");
+                $(".silde").animate({ left: '+=' + downwidth * (page_number - 1) }, "slow");
                 page = 1;
             } else {
                 $(".silde").animate({ left: '-=' + downwidth }, "slow");
@@ -26,12 +26,12 @@
     });
     $("#carousel-right").click(function () {
         if (!$(".silde").is(":animated")) {
-            if (page == 1) {
-                $(".silde").animate({ left: "-=" + downwidth * (page_number - 1) }, "slow");
-                page = page_number;
+            if (page == page_number) {
+                $(".silde").animate({ left: "+=" + downwidth * (page_number - 1) }, "slow");
+                page = 1;
             } else {
-                $(".silde").animate({ left: '+=' + downwidth }, "slow");
-                page--;
+                $(".silde").animate({ left: '-=' + downwidth }, "slow");
+                page++;
             }
         }
         return false;
