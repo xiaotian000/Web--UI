@@ -236,3 +236,29 @@
     font-weight:300;
     margin-top:0px;
 }
+.coding{
+    background:#eaeaea;
+    padding-top:10px;
+}
+.coding .container{
+    width:1500px;
+    height:500px;
+    margin-left:200px;
+    margin-right:200px;
+}
+.coding .container .swam{
+    width:1500px;
+    height:500px;
+}
+.swam .row_left{
+    width:1500px;
+    height:500px;
+}
+.swam .row_left h2{
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:40px;
+    font-family:wf_segoe-ui_light,"Segoe UI Light","Segoe WP Light",wf_segoe-ui_normal,"Segoe UI",Segoe,"Segoe WP",Tahoma,Verdana,Arial,sans-serif;
+    font-size:54px;
+    font-weight:300;
+}
