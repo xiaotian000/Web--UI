@@ -242,7 +242,7 @@
 }
 .coding .container{
     width:1500px;
-    height:500px;
+    height:620px;
     margin-left:200px;
     margin-right:200px;
 }
@@ -284,7 +284,7 @@
 .strip_alt .container{
     position:relative;
     width:1560px;
-    height:600px;
+    height:800px;
     margin-left:150px;
     margin-right:150px;
     text-align:center;
@@ -356,6 +356,28 @@
     font-family: wf_segoe-ui_normal,"Segoe UI",Segoe,"Segoe WP",Tahoma,Verdana,Arial,sans-serif;
     color:#555;
 }
+@font-face {
+  font-family: 'iconfont';  /* project id 193780 */
+  src: url('//at.alicdn.com/t/font_41pljididqyhw7b9.eot');
+  src: url('//at.alicdn.com/t/font_41pljididqyhw7b9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_41pljididqyhw7b9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_41pljididqyhw7b9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_41pljididqyhw7b9.svg#iconfont') format('svg');
+}
+.iconfont_0{
+    font-family:iconfont;
+    font-style:normal;
+    font-size:22px;
+    color:#555;
+}
 .strip_alt .container a{
     text-decoration:none;
+}
+.strip_alt .container .cta span{
+    color:#555;
+    font-size:22px;
+    line-height:150px;
+}
+.strip_alt .container a:hover{
+    text-decoration:underline;
 }
