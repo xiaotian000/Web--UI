@@ -300,25 +300,59 @@
 }
 .strip_alt .strip_item .strip_item_1{
     float:left;
-    width:460px;
+    width:480px;
     height:480px;
-    margin-left:10px;
+    margin-left:15px;
     margin-right:20px;
     background-color:#fafafa;
+}
+.strip_alt .strip_item .strip_item_1 img{
+    width:80px;
+    height:100px;
 }
 .strip_alt .strip_item .strip_item_2{
     float:left;
     width:480px;
     height:480px;
-    margin-left:10px;
+    margin-left:15px;
     margin-right:20px;
     background-color:#fafafa;
+}
+.strip_alt .strip_item .strip_item_2 img{
+    width:61px;
+    height:100px;
 }
 .strip_alt .strip_item .strip_item_3{
     float:left;
     width:480px;
     height:480px;
-    margin-left:10px;
+    margin-left:15px;
     margin-right:20px;
     background-color:#fafafa;
+}
+.strip_alt .strip_item .strip_item_3 img{
+    width:191px;
+    height:100px;
+}
+.strip_alt .strip_item img{
+    margin-top:60px;
+    margin-bottom:20px;
+}
+.strip_alt .strip_item h3{
+    font-weight:400;
+    font-size:28px;
+}
+.strip_alt .strip_item h3 a{
+    text-decoration:none;
+    color:#4799be;
+}
+.strip_alt .strip_item h3 a:hover{
+    text-decoration:underline;
+}
+.strip_alt .strip_item p{
+    display:block;
+    margin:15px 10px;
+    font-size:22px;
+    font-family: wf_segoe-ui_normal,"Segoe UI",Segoe,"Segoe WP",Tahoma,Verdana,Arial,sans-serif;
+    color:#555;
 }
