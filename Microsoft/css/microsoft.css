@@ -282,7 +282,7 @@
 }
 .home .strip_alt{
     width:100%;
-    height:800px;
+    height:850px;
     float:left;
 }
 .strip_alt .container{
@@ -388,13 +388,45 @@
 .home .strip_map{
     clear:both;
     width:100%;
-    height:600px;
+    height:720px;
+    background-color:#eaeaea;
 }
 .strip_map .container{
     position:relative;
     width:1560px;
-    height:600px;
+    height:720px;
     left:150px;
     right:150px;
     text-align:center;
+}
+.strip_map .container h1{
+    position:relative;
+    font-family: wf_segoe-ui_normal,"Segoe UI",Segoe,"Segoe WP",Tahoma,Verdana,Arial,sans-serif;
+    font-weight:300;
+    font-size:48px;
+    color:#555;
+    top:60px;
+}
+.strip_map .container p{
+    position:relative;
+    font-family: wf_segoe-ui_normal,"Segoe UI",Segoe,"Segoe WP",Tahoma,Verdana,Arial,sans-serif;
+    font-size:23px;
+    color:#555;
+    top:60px;
+    line-height:35px;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.strip_map .container a{
+    text-decoration:none;
+    color:#0977a8;
+}
+.strip_map .container a:hover{
+    text-decoration:underline;
+}
+.strip_map .container img{
+    position:relative;
+    top:80px;
+    width:768px;
+    height:325px;
 }
