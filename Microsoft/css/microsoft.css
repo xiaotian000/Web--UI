@@ -554,13 +554,25 @@
     right:150px;
 }
 .shell_footer .container ul{
+    position:relative;
+    display:block;
     list-style:none;
+    left:860px;
 }
 .shell_footer .container li{
     display:block;
     float:left;
 }
 .shell_footer .container li a{
+    display:block;
     text-decoration:none;
     color:#ffffff;
+    margin-left:15px;
+    margin-right:15px;
+}
+.shell_footer .container li .footer_copyright{
+    color:#ffffff;
+}
+.shell_footer .container li a:hover{
+    text-decoration:underline;
 }
