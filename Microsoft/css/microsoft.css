@@ -432,14 +432,14 @@
 }
 .home .strip_link{
     width:100%;
-    height:680px;
+    height:740px;
     background-color:#364c68;
     padding-top:10px;
 }
 .strip_link .container{
     position:relative;
     width:1560px;
-    height:680px;
+    height:740px;
     left:150px;
     right:150px;
 }
@@ -517,4 +517,26 @@
 .strip_link .container .link_item p{
     font-weight:400;
     line-height:30px;
+}
+.strip_link .container a{
+    text-decoration:none;
+}
+.strip_link .container .cta{
+    float:right;
+}
+.strip_link .container .cta span{
+    position:relative;
+    color:#ffffff;
+    font-size:20px;
+    top:-80px;
+}
+.strip_link .container .cta i{
+    position:relative;
+    color:#ffffff;
+    font-size:20px;
+    top:-80px;
+}
+.strip_link .container a:hover{
+    text-decoration:underline;
+    color:#ffffff;
 }
