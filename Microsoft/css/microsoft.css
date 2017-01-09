@@ -13,7 +13,7 @@
     display:block;
     margin-top:15px;
     margin-bottom:15px;
-    margin-left:145px;
+    margin-left:120px;
 }
 .top-nav a:hover{
     cursor:pointer;
@@ -23,30 +23,36 @@
     width:153px;
     height:33px;
 }
-.jumbotron{
+.home .jumbotron{
     width:100%;
-    height:450px;
+    height:500px;
     background:linear-gradient(to bottom,#364c68,#6a7d99);
 }
+.home .jumbotron .container{
+    position:relative;
+    width:1700px;
+    left:120px;
+    right:120px;
+}
 .jumbotron .main_nav .menu{
+    display:none;
     border-top: 1px solid #fff; 
     border-bottom: 1px solid #fff; 
     float: right;
-    right:180px;
+    right:40px;
     height: 1px;
-    margin-top: 35px;
+    margin-top: 60px;
     position: relative;
-    width: 35px;
+    width: 30px;
     background-color:#ffffff;
     padding: 8px 0;  
     background-clip:content-box;  
 }
-}
-.main_nav .logo{
+.jumbotron .main_nav .logo{
     position:relative;
     display:block;
     float:left;
-    left:150px;
+    left:0px;
     top:40px;
     font-size:52px;
     color:#ffffff;
@@ -55,8 +61,8 @@
 .main_nav ul{
     position:relative;
     float:left;
-    left:800px;
-    top:40px;
+    left:680px;
+    top:50px;
 }
 .main_nav li{
     display:block;
@@ -67,7 +73,7 @@
     display:block;
     text-decoration:none;
     color:#ffffff;
-    font-size:20px;
+    font-size:18px;
     margin-top:10px;
     margin-bottom:10px;
     margin-left:20px;
@@ -83,8 +89,8 @@
 .home .jumbotron img{
     position:absolute;
     float:left;
-    left:150px;
-    top:200px;
+    left:0px;
+    top:160px;
     width:710px;
     height:280px;
 }
@@ -92,9 +98,9 @@
     position:relative;
     float:right;
     color:#ffffff;
-    top:150px;
+    top:100px;
     width:850px;
-    right:125px;
+    right:50px;
 }
 .jumbotron .title h1{
     display:block;
@@ -176,37 +182,29 @@
 }
 .home .twitter .slider #silde_0{
     position:absolute;
-    /*float:left;*/
     width:1460px;
     height:170px;
     left:0;
 }
 .home .twitter .slider #silde_1{
     position:absolute;
-    /*float:left;*/
     width:1460px;
     height:170px;
     left:1460px;
 }
 .home .twitter .slider #silde_2{
     position:absolute;
-    /*float:left;*/
     width:1460px;
     height:170px;
     left:2920px;
 }
 .home .twitter .slider #silde_3{
     position:absolute;
-    /*float:left;*/
     width:1460px;
     height:170px;
     left:4380px;
 }
-/*.home .twitter .slider_inner{
-    position:relative;
-}*/
 .home .twitter .slider .item{
-    /*position:relative;*/
     float:left;
     margin-top:8px;
     margin-bottom:20px;
@@ -591,7 +589,7 @@
     text-decoration:underline;
 }
  @media(max-width:898px) {
-       .home .main_nav .menu{
-           display:block;
-       }
+      .jumbotron .main_nav .menu{
+          display:block;
+      }
     }
