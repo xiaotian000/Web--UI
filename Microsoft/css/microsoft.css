@@ -3,6 +3,7 @@
     height:100%;
     font-family:"Microsoft YaHei";
     margin:0;
+    overflow-x:hidden;
 }
 .top-nav{
     width:100%;
@@ -39,7 +40,7 @@
     border-top: 1px solid #fff; 
     border-bottom: 1px solid #fff; 
     float: right;
-    right:40px;
+    right:70px;
     height: 1px;
     margin-top: 60px;
     position: relative;
