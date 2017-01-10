@@ -90,17 +90,16 @@
 }
 .home .jumbotron img{
     position:absolute;
-    float:left;
+    /*float:left;*/
     left:0px;
     top:160px;
     width:710px;
     height:280px;
 }
 .jumbotron .title{
-    position:relative;
     float:right;
     color:#ffffff;
-    top:100px;
+    margin-top:100px;
     width:850px;
     right:50px;
 }
@@ -602,6 +601,9 @@
     }
     .jumbotron .main_nav .menu{
         display:block;
+    }
+    .main_nav ul{
+        display:none;
     }
 }
    
