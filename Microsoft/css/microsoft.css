@@ -32,9 +32,16 @@
 }
 .home .jumbotron .container{
     position:relative;
-    width:1700px;
+    width:1600px;
+    height:500px;
     left:130px;
-    right:120px;
+    right:130px;
+}
+.jumbotron .main_nav{
+    width:1600px;
+    height:150px;
+    left:130px;
+    right:130px;
 }
 .jumbotron .main_nav .menu{
     display:none;
@@ -90,15 +97,14 @@
 }
 .home .jumbotron img{
     float:left;
-    margin:45px;
-    width:710px;
-    height:280px;
+    width: 48%;
 }
+
 .jumbotron .title{
     float:right;
     color:#ffffff;
-    margin-top:100px;
-    width:850px;
+    margin-top:30px;
+    width:48%;
     right:50px;
 }
 .jumbotron .title h1{
