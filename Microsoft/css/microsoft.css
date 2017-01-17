@@ -319,7 +319,7 @@
 }
 .strip_alt .strip_item .strip_item_1{
     float:left;
-    width:480px;
+    width:31%;
     height:480px;
     margin-left:15px;
     margin-right:20px;
@@ -331,7 +331,7 @@
 }
 .strip_alt .strip_item .strip_item_2{
     float:left;
-    width:480px;
+    width:31%;
     height:480px;
     margin-left:15px;
     margin-right:20px;
@@ -343,7 +343,7 @@
 }
 .strip_alt .strip_item .strip_item_3{
     float:left;
-    width:480px;
+    width:31%;
     height:480px;
     margin-left:15px;
     margin-right:20px;
@@ -616,6 +616,7 @@
     text-align:center;
 }
     .jumbotron .title .button{
+        float:none;
         width:38%;
     }
     .jumbotron .main_nav .menu{
