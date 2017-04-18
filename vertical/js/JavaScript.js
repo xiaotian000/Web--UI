@@ -1,20 +1,7 @@
-﻿
-$(function () {
-    var winHeight = $(document).scrollTop();
-
-    $(window).scroll(function () {
-        var scrollY = $(document).scrollTop();
-        if (scrollY > 550) {
-            $('.fixed_nav').addClass('hiddened');
-        }
-        else {
-            $('.fixed_nav').removeClass('hiddened');
-        }
-        if (scrollY > winHeight) {
-            $('.fixed_nav').removeClass('showed');
-        }
-        else {
-            $('.fixed_nav').addClass('showed');
-        }
-    });
-});
+﻿this.fixed_nav = function () {
+    if ($(document).scrollTop() > 150) {
+        $(".fixed_nav").slideDown(300);
+    } else {
+        $(".fixed_nav").fadeOut(100);
+    }
+}
