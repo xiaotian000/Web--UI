@@ -129,7 +129,7 @@ i {
     font-family:iconfont;
     position:absolute;
     right:60px;
-    top:12px;
+    top:17px;
     font-size:18px;
     cursor: pointer;
 }
@@ -245,10 +245,11 @@ i {
     font-size:18px;
 }
 .fixed_nav .fixed_search{
-    position:relative;
+    position:absolute;
     float:left;
-    left:80px;
-    top:-22px;
+    height:55px;
+    left:760px;
+    top:0px;
 }
 .fixed_nav .fixed_search a{
     width:45px;
@@ -256,20 +257,27 @@ i {
 }
 .fixed_nav .fixed_search .key_word span{
     position:absolute;
-    left:285px;
-    top:12px;
+    left:294px;
+    top:17px;
 }
 .fixed_nav .fixed_search .fixed_seleced{
     width:350px;
     height:35px;
+    margin-top:10px;
     border-radius:5px;
     border-color:#e9eaee;
 }
+.fixed_nav .fixed_search a{
+    position:absolute;
+    float:left;
+    left:358px;
+    top:5px;
+}
 .fixed_nav .fixed_upload{
     position:relative;
-    float:left;
-    left:100px;
-    top:-25px;
+    float:right;
+    left:540px;
+    height:55px;
 }
 .fixed_upload .message_box{
     position:relative;
@@ -299,7 +307,7 @@ i {
 }
 .fixed_nav .upload{
     position:relative;
-    float:left;
+    float:right;
     left:200px;
     top:-25px;
 }
