@@ -210,7 +210,8 @@ i {
     height:0;
     top:0;
     right:0;
-    display:none;
+    display:none; 
+    z-index:9999;
 }
 .header_mask{
     position: absolute;
