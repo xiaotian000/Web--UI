@@ -278,7 +278,7 @@
 }
 .swam .row_left .item_left h2{
     margin-top:40px;
-    margin-bottom:40px;
+    margin-bottom:25px;
     font-family:wf_segoe-ui_light,"Segoe UI Light","Segoe WP Light",wf_segoe-ui_normal,"Segoe UI",Segoe,"Segoe WP",Tahoma,Verdana,Arial,sans-serif;
     font-size:50px;
     font-weight:300;
@@ -295,6 +295,21 @@
     font-weight:600;
     line-height:35px;
     color:#808080;
+}
+.swam .row_left .item_left li a{
+    text-decoration:none;
+    color:#0977a8;
+}
+.swam .row_left .item_left li a:hover{
+    text-decoration:underline;
+}
+.swam .row_left .item_left .button{
+    display:inline-block;
+    text-decoration:none;
+    font-size:24px;
+    border:18px solid #0977a8;
+    background-color:#0977a8;
+    color:#fff;
 }
 .swam .row_left .item_right{
     float:left;
