@@ -273,16 +273,28 @@
     width:1500px;
     height:500px;
 }
-.swam .row_left h2{
-    text-align:center;
+.swam .row_left .item_left{
+    float:left;
+}
+.swam .row_left .item_left h2{
     margin-top:40px;
     margin-bottom:40px;
     font-family:wf_segoe-ui_light,"Segoe UI Light","Segoe WP Light",wf_segoe-ui_normal,"Segoe UI",Segoe,"Segoe WP",Tahoma,Verdana,Arial,sans-serif;
-    font-size:54px;
+    font-size:50px;
     font-weight:300;
+    color:#555;
 }
-.swam .row_left .item_left{
-    float:left;
+.swam .row_left .item_left h3{
+    font-family:wf_segoe-ui_light,"Segoe UI Light","Segoe WP Light",wf_segoe-ui_normal,"Segoe UI",Segoe,"Segoe WP",Tahoma,Verdana,Arial,sans-serif;
+    font-size:25px;
+    color:#555;
+}
+.swam .row_left .item_left ul{
+    font-family:wf_segoe-ui_light,"Segoe UI Light","Segoe WP Light",wf_segoe-ui_normal,"Segoe UI",Segoe,"Segoe WP",Tahoma,Verdana,Arial,sans-serif;
+    font-size:22px;
+    font-weight:600;
+    line-height:35px;
+    color:#808080;
 }
 .swam .row_left .item_right{
     float:left;
