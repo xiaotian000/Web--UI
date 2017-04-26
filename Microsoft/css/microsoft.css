@@ -283,10 +283,6 @@
 }
 .swam .row_left .item_left{
     float:left;
-    width:568px;
-    height:268px;
-    border:1px solid #808080;
-    margin-right:40px;
 }
 .swam .row_left .item_right{
     float:left;
