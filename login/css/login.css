@@ -57,3 +57,21 @@
     transition:border linear .3s,-webkit-box-shadow linear .6s;
     box-shadow:0px 0px 50px #808080;
 }
+.loginMain .login .white_login .text_position {
+    margin-left:80px;
+    margin-right:80px;
+}
+.loginMain .login .white_login .text_position img{
+}
+.loginMain .login .white_login .text_position p{
+   font-size:22px;
+   color:#808080;
+ }
+.loginMain .login .white_login .text_position input{
+    border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;
+    outline:medium;
+    font-size:22px;
+    width:340px;
+}
