@@ -29,3 +29,15 @@
     font-size:30px;
     font-weight:400;
 }
+.loginMain .login .block_about ul{
+    display:block;
+    margin-left:20px;
+    line-height:55px;
+    font-size:25px;
+    font-weight:300;
+    color:#f2eeee;
+}
+.loginMain .login .block_about ul a{
+    text-decoration:none;
+    color:#f2eeee;
+}
