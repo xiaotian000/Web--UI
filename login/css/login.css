@@ -62,20 +62,22 @@
     margin-right:80px;
 }
 .loginMain .login .white_login .text_position img{
+    margin-top:20px;
+    width:300px;
+    height:180px;
 }
 .loginMain .login .white_login .text_position p{
-   font-size:22px;
+   font-size:21px;
    color:#808080;
+   margin-top:12px;
+   margin-bottom:15px;
  }
 .loginMain .login .white_login .text_position input{
     border-left-style:none;
     border-right-style:none;
     border-top-style:none;
     outline:medium;
-    font-size:22px;
+    font-size:24px;
     width:340px;
 }
-.white_login .text_position .controls input{
-    border:1px solid #808080;
-    background-color:#ffffff;
-}
+
