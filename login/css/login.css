@@ -81,7 +81,7 @@
     width:340px;
 }
 .loginMain .login .white_login .text_position .controls input{
-    margin-top:24px;
+    margin-top:30px;
     margin-bottom:20px;
     margin-right:10px;
     margin-left:0px;
@@ -93,20 +93,44 @@
 }
 .loginMain .login .white_login .text_position .controls label{
     position:absolute;
-    margin-top:20px;
-    margin-bottom:18px;
+    margin-top:24px;
+    margin-bottom:20px;
     font-size:21px;
     color:#808080;
 }
 .loginMain .login .white_login .text_position .button button{
-    margin-top:20px;
+    margin-top:25px;
     width:340px;
     height:50px;
-    border:solid #c6873b;
+    border:solid #f6c94a;
     border-radius:25px;
-    background-color:#c6873b;
+    background-color:#f6c94a;
     color:#ffffff;
     font-size:21px;
+}
+.loginMain .login .white_login .text_position .button button{
+    outline:none;
+}
+.white_login .text_position .login_footer{
+    width:340px;
+    height:50px;
+    margin-top:25px;
+}
+.white_login .text_position .login_footer a{
+    text-decoration:none;
+    color:#808080;
+}
+.white_login .text_position .login_footer .newuser{
+    margin-right:70px;
+}
+.white_login .text_position .login_footer .forget{
+    margin-left:70px;
+}
+.white_login .text_position .login_footer p{
+    position:relative;
+    float:left;
+    font-size:21px;
+    color:#ffffff;
 }
 
 
