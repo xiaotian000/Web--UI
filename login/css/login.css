@@ -87,6 +87,9 @@
     margin-left:0px;
     width:25px;
     height:25px;
+    -webkit-appearance:none;
+    background-color: #ffffff;
+    border:1px solid #c4c1c1;
 }
 .loginMain .login .white_login .text_position .controls label{
     position:absolute;
