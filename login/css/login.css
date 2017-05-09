@@ -98,4 +98,15 @@
     font-size:21px;
     color:#808080;
 }
+.loginMain .login .white_login .text_position .button button{
+    margin-top:20px;
+    width:340px;
+    height:50px;
+    border:solid #c6873b;
+    border-radius:25px;
+    background-color:#c6873b;
+    color:#ffffff;
+    font-size:21px;
+}
+
 
