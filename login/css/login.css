@@ -69,7 +69,7 @@
 .loginMain .login .white_login .text_position p{
    font-size:21px;
    color:#808080;
-   margin-top:22px;
+   margin-top:24px;
    margin-bottom:20px;
  }
 .loginMain .login .white_login .text_position input{
@@ -93,7 +93,7 @@
 }
 .loginMain .login .white_login .text_position .controls label{
     position:absolute;
-    margin-top:24px;
+    margin-top:27px;
     margin-bottom:20px;
     font-size:21px;
     color:#808080;
@@ -107,6 +107,9 @@
     background-color:#f6c94a;
     color:#ffffff;
     font-size:21px;
+}
+.loginMain .login .white_login .text_position .button button:hover{
+    cursor:pointer;
 }
 .loginMain .login .white_login .text_position .button button{
     outline:none;
