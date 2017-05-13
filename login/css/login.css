@@ -93,6 +93,7 @@
     -webkit-appearance:none;
     background-color: #ffffff;
     border:1px solid #c4c1c1;
+    background:rgba(0,0,0,0);
 }
 .loginMain .login .white_login .text_position .controls input:hover{
     cursor:pointer;
@@ -116,7 +117,7 @@
     width:340px;
     height:50px;
     border:solid #f6c94a;
-    border-radius:25px;
+    border-radius:25px;      
     background-color:#f6c94a;
     color:#ffffff;
     font-size:21px;
