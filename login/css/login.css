@@ -91,8 +91,10 @@
     width:25px;
     height:25px;
     -webkit-appearance:none;
+    -moz-appearance:none;
     background-color: #ffffff;
     border:1px solid #c4c1c1;
+    border-radius:1px;
     background:rgba(0,0,0,0);
 }
 .loginMain .login .white_login .text_position .controls input:hover{
@@ -104,13 +106,24 @@
     font-size:21px;
     color:#808080;
 }
-.text_position .controls em{
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    margin-left: 1px;
-    background: url(../images/check_8486fe6.png) left 0px no-repeat;
-    vertical-align: text-bottom;
+.loginMain .login .white_login .text_position .controls input:checked{
+    background:#f6c94a;
+    border-color:#f6c94a;
+}
+.loginMain .login .white_login .text_position .controls inout:after{
+     content: "";
+     width: 18px;
+     height: 11px;
+     position: absolute;
+     top: 0.8px;
+     left: -2.5px;
+     border: 4px solid #fff;
+     border-top: none;
+     border-right: none;
+     background: transparent;
+     -webkit-transform: rotate(-65deg) scale(.5);
+     transform: rotate(-65deg) scale(.5);
+     box-sizing: inherit;
 }
 .loginMain .login .white_login .text_position .button button{
     margin-top:25px;
