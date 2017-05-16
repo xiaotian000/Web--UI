@@ -110,7 +110,7 @@
     background:#f6c94a;
     border-color:#f6c94a;
 }
-.loginMain .login .white_login .text_position .controls inout:after{
+.loginMain .login .white_login .text_position .controls input:after{
      content: "";
      width: 18px;
      height: 11px;
