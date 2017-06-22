@@ -14,11 +14,13 @@
 }
 .navbar-default .navbar-nav > li > a {
     color: #fff;
+    text-decoration:none;
 }
-.navbar-default .navbar-nav > li > a:hover{
-    border:4px solid #fff;
-    border-left:none;
-    border-right:none;
-    border-top:none;
-    color:#fff;
-}
+.navbar-default .navbar-nav > li > a:hover {
+    border: 4px solid #fff;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: #fff;
+    transition: width 2s;
+    }
