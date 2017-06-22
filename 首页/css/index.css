@@ -8,3 +8,10 @@
     background-repeat: no-repeat;
     background-size:cover;
 }
+.navbar-default{
+    background:none;
+    border:none;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
