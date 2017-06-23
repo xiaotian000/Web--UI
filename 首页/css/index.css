@@ -47,3 +47,8 @@
     height:150px;
     left:120px;
 }
+.table thead > tr {
+    background: #637d4b;
+    color:#fff;
+    line-height:10px;
+}
