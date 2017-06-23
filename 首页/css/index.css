@@ -39,4 +39,10 @@
     width:100%;
     left:0;
     right:0;
-    }
+}
+.cover{
+    position:absolute;
+    top:20px;
+    width:300px;
+    height:300px;
+}
