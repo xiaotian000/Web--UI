@@ -44,13 +44,26 @@
     position:absolute;
     top:40px;
     width:300px;
-    height:150px;
+    height:170px;
     left:120px;
+}
+.grid_12{
+    position:relative;
+    top:50px;
+}
+.trapezoid-outer {
+
+}
+.trapezoid {
+    border: 1px solid #637d4b;
+    width: 300px;
+    height: 40px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%,30% 100%);
 }
 .table thead > tr {
     background: #637d4b;
-    color:#fff;
-    line-height:10px;
+    color: #fff;
+    line-height: 10px;
 }
 .table tbody > tr > td:hover {
     background-color: #fff0db;
