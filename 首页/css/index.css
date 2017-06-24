@@ -55,10 +55,24 @@
 
 }
 .trapezoid {
-    border-top:50px solid #637d4b;
+    border-top:50px solid #76945a;
     border-right:25px solid transparent;
     border-left:25px solid transparent;
     width: 150px;
+    z-index:999;
+}
+.trapezoid-main{
+    position:absolute;
+    border-top:50px solid #ad6938;
+    border-right:25px solid transparent;
+    border-left:25px solid transparent;
+    width:150px;
+    top:15px;
+    z-index:-1;
+}
+.cont-outer{
+    position:relative;
+    top:30px;
 }
 .table thead > tr {
     background: #637d4b;
