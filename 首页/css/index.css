@@ -58,7 +58,7 @@
     border: 1px solid #637d4b;
     width: 300px;
     height: 40px;
-    clip-path: polygon(0 0, 100% 0, 100% 100%,30% 100%);
+    clip-path: polygon(0 0,30% 100%,100% 100%,100% 30%);
 }
 .table thead > tr {
     background: #637d4b;
