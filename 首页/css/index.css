@@ -70,10 +70,19 @@
     top:15px;
     z-index:-1;
 }
-.cont-outer{
-    position:relative;
-    top:30px;
-}
+.trapezoid-main:before{
+    content:"";
+    position:absolute;
+    top:-40px;
+    left:0;
+    right:0;
+    bottom:30px;
+    z-index:999;
+} 
+.cont-outer {
+    position: relative;
+    top: 30px;
+    }
 .table thead > tr {
     background: #637d4b;
     color: #fff;
