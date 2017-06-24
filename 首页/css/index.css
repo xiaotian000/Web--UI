@@ -55,10 +55,10 @@
 
 }
 .trapezoid {
-    border: 1px solid #637d4b;
-    width: 300px;
-    height: 40px;
-    clip-path: polygon(0 0,30% 100%,100% 100%,100% 30%);
+    border-top:50px solid #637d4b;
+    border-right:25px solid transparent;
+    border-left:25px solid transparent;
+    width: 150px;
 }
 .table thead > tr {
     background: #637d4b;
