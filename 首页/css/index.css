@@ -81,7 +81,8 @@
 } 
 .cont-outer {
     position: relative;
-    top: 30px;
+    margin-top:40px;
+    margin-bottom:40px;
     }
 .table thead > tr {
     background: #637d4b;
