@@ -89,3 +89,7 @@
 .table tbody > tr > td:hover {
     background-color: #fff0db;
 }
+.table tbody > tr > td{
+    height:50px;
+    line-height:30px;
+}  
