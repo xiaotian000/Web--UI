@@ -50,9 +50,6 @@
     position:relative;
     top:50px;
 }
-.trapezoid-outer {
-
-}
 .trapezoid {
     border-top:50px solid #76945a;
     border-right:25px solid transparent;
@@ -79,7 +76,10 @@
 .cont-outer {
     position: relative;
     margin-bottom:40px;
-    }
+}
+.table{
+    box-shadow:0px 0px 20px #d5d3d3;
+}
 .table thead > tr {
     background: #637d4b;
     color: #fff;
@@ -91,4 +91,4 @@
 .table tbody > tr > td{
     height:50px;
     line-height:30px;
-}  
+}
