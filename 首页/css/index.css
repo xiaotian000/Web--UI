@@ -61,24 +61,22 @@
     width: 150px;
     z-index:999;
 }
+.trapezoid span {
+    position: relative;
+    top: -35px;
+    left: 20px;
+    z-index: 999;
+    color:#fff;
+} 
 .trapezoid-main{
     position:relative;
     border-top:50px solid #ad6938;
     border-right:25px solid transparent;
     border-left:25px solid transparent;
     width:150px;
-    top:-30px;
+    top:-50px;
     z-index:-1;
 }
-.trapezoid-main span:before{
-        content:"";
-        position: absolute;
-        top: -40px;
-        left: 0;
-        right: 0;
-        bottom: 30px;
-        z-index: 999;
-    } 
 .cont-outer {
     position: relative;
     margin-bottom:40px;
