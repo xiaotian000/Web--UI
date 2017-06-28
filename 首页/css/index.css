@@ -61,7 +61,6 @@
     border-left: 25px solid transparent;
     width: 150px;
     height: 80px;
-    z-index: 999;
 }
 .trapezoid span {
     position: relative;
@@ -72,12 +71,12 @@
     font-size:16px;
 }
 .trapezoid-main {
-    position: relative;
+    position: absolute;
     border-top: 50px solid #ad6938;
     border-right: 25px solid transparent;
     border-left: 25px solid transparent;
     width: 150px;
-    top: -60px;
+    top: -40px;
     left:-15px;
     z-index: -1;
 }
