@@ -51,12 +51,14 @@
     top:50px;
 }
 .trapezoid {
-    border-top:50px solid #76945a;
-    border-right:25px solid transparent;
-    border-left:25px solid transparent;
+    position: relative;
+    left: -25px;
+    border-top: 50px solid #76945a;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
     width: 150px;
-    height:110px;
-    z-index:999;
+    height: 80px;
+    z-index: 999;
 }
 .trapezoid span {
     position: relative;
@@ -65,19 +67,20 @@
     z-index: 999;
     color:#fff;
     font-size:16px;
-} 
-.trapezoid-main{
-    position:relative;
-    border-top:50px solid #ad6938;
-    border-right:25px solid transparent;
-    border-left:25px solid transparent;
-    width:150px;
-    top:-55px;
-    z-index:-1;
+}
+.trapezoid-main {
+    position: relative;
+    border-top: 50px solid #ad6938;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    width: 150px;
+    top: -60px;
+    left:-15px;
+    z-index: -1;
 }
 .cont-outer {
     position: relative;
-    margin-bottom:50px;
+    margin-bottom:55px;
 }
 .table{
     box-shadow:0px 0px 20px #d5d3d3;
