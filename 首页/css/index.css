@@ -9,15 +9,16 @@
     background-size:cover;
 }
 .navbar-toggle{
-    background-color:#fff;
 }
 .navbar-default {
-    background:none; border:none;
+    background:none; 
+    border:none;
 }
 .navbar-default .navbar-nav > li > a {
     position:relative;
     color: #fff;
     text-decoration:none;
+    text-align:center;
 }
 .navbar-default .navbar-nav > li > a:before{
     content:"";
