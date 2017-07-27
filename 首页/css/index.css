@@ -112,6 +112,14 @@
     margin-left:100px;
     margin-right:100px;
 }
+.logo-link{
+    position:absolute;
+    width:1000px;
+    height:500px;
+}
 .logo-link ul{
     list-style:none;
+}
+.logo-link ul > li{
+    float:left;
 }
