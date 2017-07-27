@@ -106,3 +106,12 @@
     height:400px;
     background-color:#637d4b;
 }
+.main-footer{
+    position:relative;
+    top:100px;
+    margin-left:100px;
+    margin-right:100px;
+}
+.logo-link ul{
+    list-style:none;
+}
